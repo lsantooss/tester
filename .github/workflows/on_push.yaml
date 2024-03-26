@@ -4,7 +4,7 @@ on:
     - master
 jobs:
   release:
-    runs-on: self-hosted
+    runs-on: arc-runner
     steps:
       - name: Every time
         run: echo "This step will always run"
