@@ -4,7 +4,7 @@ on:
     - master
 jobs:
   release:
-    runs-on: host-runner
+    runs-on: actions-runner-controller
     steps:
       - name: Every time
         run: echo "This step will always run"
