@@ -7,4 +7,4 @@ jobs:
     runs-on: self-hosted
     steps:
       - name: Every time
-        run: echo "This step will always run"
+        run: echo "This step will alwafys run"
