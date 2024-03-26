@@ -4,7 +4,7 @@ on:
     - master
 jobs:
   release:
-    runs-on: arc-runner
+    runs-on: arc-host
     steps:
       - name: Every time
         run: echo "This step will alwafys run"
